@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(255, 226, 239);
+background: radial-gradient(circle, rgb(255, 227, 239) 0%, rgba(148,187,233,1) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(210, 239, 237);
+background: radial-gradient(circle, rgb(255, 240, 180) 0%, rgb(153, 178, 255) 100%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #49329b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    
+    background-color: #28146f;
+    align-items: center;
+}
+
+.button-container {
+    text-align: center;
+}
+
+
+
+.btn{
+    margin-left: 40%;
+}
+
+#list{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(210, 239, 237);
+    background: radial-gradient(circle, rgb(255, 240, 180) 0%, rgb(153, 178, 255) 100%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+table,tr,td{
+    border: 1px solid black;
+}
+
+#space{
+    width: 99%;
+}
